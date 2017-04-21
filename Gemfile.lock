@@ -1,0 +1,34 @@
+PATH
+  remote: .
+  specs:
+    activerecord-be_readonly (0.4.0)
+      activerecord (>= 3.0, < 6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.2.20)
+      activesupport (= 3.2.20)
+      builder (~> 3.0.0)
+    activerecord (3.2.20)
+      activemodel (= 3.2.20)
+      activesupport (= 3.2.20)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activesupport (3.2.20)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    arel (3.0.3)
+    builder (3.0.4)
+    i18n (0.7.0)
+    multi_json (1.10.1)
+    tzinfo (0.3.42)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord-be_readonly!
+
+BUNDLED WITH
+   1.14.6
